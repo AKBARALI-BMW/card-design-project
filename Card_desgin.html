@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task  card desgin</title>
+
+  <style>
+    body{
+        background-color: gray;
+    }
+
+     .container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     }
+
+    .card{
+        background-color: rgb(103, 122, 122);
+        width: 270px;
+        height: 450px;
+        margin: 10px;
+        margin-top: 100px;
+        border-radius: 9px;
+        
+        
+
+    }
+   .card_image{
+
+    background-color: blue;
+    height: 190px;
+    background-size: cover;
+    border-radius: 9px 9px 0 0;
+   }
+  .card_1{
+    background-image: url("https://media.istockphoto.com/id/1428698219/photo/happy-young-businesswoman-speaking-on-the-phone-in-a-warehouse.webp?b=1&s=612x612&w=0&k=20&c=zUtYGX0d5-0qHS3yo0EaMcOKqRtsyfpIgllMvcwKvnQ=");
+  }
+
+  .card_2{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867759_1280.jpg");
+  }
+
+  .card_p{
+    padding-left: 19px;
+    padding-right: 5px;
+    text-align: justify;
+  }
+
+  button{
+    height: 38px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(99, 162, 188);
+
+  }
+  button:hover{
+   background-color: rgb(27, 129, 197);
+   color: white;
+  }
+
+  .card:hover{
+    background-color: rgb(31, 107, 161);
+    color: aliceblue;
+    transform: scale(1.1);
+    transition: all 1s ease;
+  }
+  
+  </style>
+
+</head>
+<body>
+    
+       <section class="container">
+        <div class="card">
+            <div class="card_image card_1"></div>
+        <h2 class="card_p">Akbar Ali</h2>
+        <p class="card_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed odit cumque aut, esse tempore et iure hic sapiente veniam eos  Sed odit cumque aut, esse tempore et iure hic </p>
+        <a href="https://www.youtube.com/watch?v=v_J7TS9Xs" class="card_p">More read</a><br><br>
+        <button>Contat Now</button>
+
+      </div>
+
+      <div class="card">
+        <div class="card_image card_2"></div>
+    <h2 class="card_p">Akbar Ali</h2>
+    <p class="card_p"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed odit cumque aut, esse tempore et iure hic sapiente veniam eos  Sed odit cumque aut, esse tempore et iure hic </p>
+    <a href="https://www.youtube.com/watch?v=v_J7TS9Xs" class="card_p">More read</a><br><br> 
+    <button>Contat Now</button>
+
+  </div>
+
+  <div class="card">
+    <div class="card_image card_1"></div>
+<h2 class="card_p">Akbar Ali</h2>
+<p class="card_p"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed odit cumque aut, esse tempore et iure hic sapiente veniam eos  Sed odit cumque aut, esse tempore et iure hic </p>
+<a href="https://www.youtube.com/watch?v=v_J7TS9Xs" class="card_p">More read</a><br><br>
+<button>Contat Now</button>
+</div>
+
+
+     
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anter desgin</title>
+
+    <style>
+
+        body{
+            background-color: #c990d3;
+        }
+        .main_container{
+       
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            /* grid-gap:2rem; */
+            width: 25%;
+            height: 400px;
+            background-image:  linear-gradient(#f78fa2, #9d90d3);
+           border-radius: 20px;
+           margin-top: 7rem;
+           margin-left: 28rem;
+        
+                      
+
+        }
+       .card_container{
+         
+
+         text-align: center;
+         border-radius: 1rem;
+         position: relative;
+       }
+
+       .card_container:hover{
+        background-color: grey;
+        transition: all 1s ease;
+        transform: scale(1.1);
+       }
+
+       .first_image{
+        background-image: url('https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_1280.jpg');
+        position: absolute;
+        width: 100%;
+        height: 12rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px 20px 0px 0px;
+       }
+    .profile_image{
+        width: 8rem;
+        clip-path: circle(40px at center);
+        margin-top: 9rem;
+
+    }
+   
+    .btn_data{
+    display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   font-size: 12px;
+   padding-bottom: 20px;    
+    }
+
+
+    </style>
+</head>
+<body>
+    
+
+     <div class="main_container">
+        <div class="card_container">
+            <div class="first_image"></div>
+            <img src="https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_1280.jpg" alt="" class="profile_image">
+            <h2>Akbar Ali</h2>
+            <p>Swat</p>
+            <div class="btn_data">
+                <h3> <b>80k </b><br> <span>followers </span></h3>
+                <h3><b>80k </b><br> <span>followers</span></h3>
+                <h3><b>80k </b><br> <span>followers</span></h3>
+            </div>
+        </div>
+     </div>
+
+</body>
+</html>
